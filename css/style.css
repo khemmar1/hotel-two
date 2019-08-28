@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background: rgba(50, 50, 50, .5);
+}
+
+.header-wrapper {
+    background: url(../img/7433.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.topnav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+
+.topnav .contact-no {
+    text-align: center;
+}
+
+.logo img {
+    background: #fff;
+    padding: 10px;
+}
+
+.contact-no {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #323232;
+    font-weight: bold;
+}
+
+.contact-no .num-phone {
+    text-decoration: none;
+    color: #323232;
+    font-weight: normal;
+}
+
+
+
+
+
+.header-content {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+
+
+.header-content h2 {
+    font-size: 40px;
+
+}
+
+
+.diamond,
+._diamond {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    transform: rotate(45deg);
+    margin: 20px auto;
+    position: relative;
+}
+
+
+._diamond::before,
+.diamond::before {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 18px;
+    top: -40px;
+}
+
+
+._diamond::after,
+.diamond::after {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: 18px;
+    top: 50px;
+}
+
+.header-content p {
+    font-size: 18px;
+}
+
+.booking {
+    background: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.booking input {
+    border: none;
+    border-bottom: 1px solid #00bbd4;
+    padding: 10px;
+    outline: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.booking input[name="check-in"] {
+    width: 20%
+}
+
+.room_qte,
+.adults_qte,
+.child_qte {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #00bbd4;
+    padding: 9px;
+    color: gray;
+    font-family: 'PT Sans', sans-serif;
+
+
+}
+
+
+button {
+    background: #00bbd4;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase 
+}
+
+.fa-user,
+.fa-envelope,
+.fa-phone,
+.fa-calendar {
+    color: #00bbd4;
+    font-size: 16px;
+}
+
+.fa-arrow-right {
+    font-size: 12px;
+}
+
+
+/* SECTION 2 */
+
+.our-hotel {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+
+}
+
+.our-hotel h2 {
+    text-transform: uppercase;
+    /* padding-bottom: 50px; */
+    padding-top: 50px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+
+
+._diamond {
+    background: #00bbd4;
+}
+
+._diamond::before {background: #00bbd4}
+._diamond::after {background: #00bbd4;}
+
+.our-hotel .hotel-desc {
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    color: #222;
+    padding-bottom: 50px;
+}
+
+.our-gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.our-gallery .gallery-item {
+    /* padding: 30px; */
+    background: #00bbd4;
+    margin: 5px 0
+}
+
+
+
+.our-gallery .item-one {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background: url(../img/children-cute-excited-225017.png) center center no-repeat;
+    height: 524px;
+
+}
+
+.item-one {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.item-one h1 {
+    padding-top: 30px;
+    padding-bottom: 2px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+
+
+
+}
+
+.item-one .item-one-desc {
+    letter-spacing: 5px;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+}
+
+
+.item-one span {
+    text-transform: capitalize;
+    width: 65%;
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.box {
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+
+.box .box-title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+
+.box .box-price {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+
+.book-btn {
+    display: block;
+    text-decoration: none;
+    background: #ffcd03;
+}
+
+.our-gallery .item-two {
+    background: url(../img/groups-entertainment.png) center center no-repeat;
+    height: 245px; 
+
+}
+
+.our-gallery .item-three {
+    background: url(../img/outdoor-swimming-pool.png) center center no-repeat;
+    height: 245px; 
+
+}
+
+.our-gallery .item-four {
+    background: url(../img/gym-sports.png) center center no-repeat;
+    height: 245px;
+ 
+}
+
+.our-gallery .item-five {
+    background: url(../img/buffe-restaurant.png) center center no-repeat;
+    height: 245px; 
+
+}
+
+
+
+
+
