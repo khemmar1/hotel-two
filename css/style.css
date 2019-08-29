@@ -333,12 +333,12 @@ button {
 
 .wellness-hotel {
     background: url(../img/beverage-citrus-close-up-1265910.jpg) center center no-repeat;
-    height: 700px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    height: 600px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .wellness-hotel h2 {
@@ -360,17 +360,28 @@ button {
 
 .wellness-hotel li {
     background: #02bcd5;
-    margin: 0 5px;
+    margin: 0 1px;
     padding: 5px;
     font-size: 20px;
     color: #fff;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
 
+}
+
+
+.wellness-hotel li:hover {
+    background: #fff;
 }
 
 
 
 .wellness-hotel li i {
     font-size: 30px;
+}
+
+.wellness-hotel li:hover i {
+    color: #02bcd5;
 }
 
 .wellness-hotel a {
@@ -380,6 +391,64 @@ button {
     color: #fff;
 
 }
+
+.wellness-hotel li:hover a {
+    color: #02bcd5;
+}
+
+.wellness-desc {
+    background: #fff;
+    width: 79%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.wellness-img img {
+    margin: 10px 10px 5px;
+    
+}
+
+.wellnessDesc {
+    text-align: left;
+    margin: 10px 15px;
+
+}
+
+.wellnessDesc h1 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.wellnessDesc .orange {
+    color: #e67f24;
+    font-weight: bold;
+}
+
+.wellnessDesc .workTime,
+.wellnessDesc .priceVal {
+    color: #999;
+}
+
+.wellnessPara {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.2;
+    color: #999;
+}
+
+.seeMore {
+    background: #02bcd5;
+    color: #fff;
+    width: 200px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+
 
 
 
