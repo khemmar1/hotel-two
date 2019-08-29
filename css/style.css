@@ -263,7 +263,7 @@ button {
     display: block;
     margin: auto;
     font-size: 14px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .box {
@@ -289,6 +289,19 @@ button {
     display: block;
     text-decoration: none;
     background: #ffcd03;
+    border: 1px solid #ffcd03;
+    color: #000;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    transition: all .8s ease-in-out
+}
+
+.book-btn:hover {
+    background: none;
+    color: #ffcd03
 }
 
 .our-gallery .item-two {
@@ -316,6 +329,57 @@ button {
 }
 
 
+/* SECTION 3 */
+
+.wellness-hotel {
+    background: url(../img/beverage-citrus-close-up-1265910.jpg) center center no-repeat;
+    height: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wellness-hotel h2 {
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 34px;
+    font-family: 'Anton' , sans-serif;
+    letter-spacing: 1px;
+}
+
+.wellness-menu {
+    display: grid;
+    grid-template-columns: repeat(4,10%);
+    justify-content: center;
+    list-style: none;
+    font-family: 'Anton', sans-serif;
+}
+
+.wellness-hotel li {
+    background: #02bcd5;
+    margin: 0 5px;
+    padding: 5px;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+
+
+.wellness-hotel li i {
+    font-size: 30px;
+}
+
+.wellness-hotel a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+
+}
 
 
 
