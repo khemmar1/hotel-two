@@ -348,6 +348,7 @@ button {
     font-size: 34px;
     font-family: 'Anton' , sans-serif;
     letter-spacing: 1px;
+    font-weight: normal;
 }
 
 .wellness-menu {
@@ -401,7 +402,8 @@ button {
     width: 79%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
 }
 
 .wellness-img img {
@@ -447,6 +449,83 @@ button {
     font-weight: bold;
     border-radius: 2px;
 }
+
+
+/* SECTION 4 */
+
+.accomo-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-left: 65px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    font-weight: normal
+}
+
+.accomodations {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    width: 90%;
+    margin: auto;
+}
+
+.accomo-img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px 20px;
+}
+
+.stars {
+    display: block;
+    padding-bottom: 10px;
+    color: #f8e123;
+    font-size: 12px;
+}
+
+.testimonial h2 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    
+}
+
+.testimonial-name {
+    padding-bottom: 10px;
+    color: #343434;
+}
+
+.testimonial-desc {
+    color: #343434;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.testimonial hr {
+    border: .5px solid #eee;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.allRev {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    background: #00bbd4;
+    padding: 15px;
+    display: block;
+    width: 35%;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+
+
 
 
 
