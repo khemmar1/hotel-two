@@ -535,13 +535,13 @@ button {
     position: absolute;
     bottom: 31px;
     right: 0;
-    opacity: .9;
+    opacity: .8;
 }
 
 .triangle-bottom-right span {
     position: absolute;
-    bottom: -120px;
-    right: 21px;
+    bottom: -110px;
+    right: 12px;
     color: #fff;
     font-size: 18px;
     font-weight: bold;
