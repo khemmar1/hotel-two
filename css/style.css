@@ -523,6 +523,32 @@ button {
     border-radius: 5px;
 }
 
+.room-img {
+    position: relative;
+}
+
+.triangle-bottom-right {
+    width: 0;
+    height: 0;
+    border-bottom: 140px solid #00bbd4;
+    border-left: 140px solid transparent;
+    position: absolute;
+    bottom: 31px;
+    right: 0;
+    opacity: .9;
+}
+
+.triangle-bottom-right span {
+    position: absolute;
+    bottom: -120px;
+    right: 21px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
 
 .room-img h3 {
     font-weight: normal;
